@@ -1,0 +1,48 @@
+.main {
+    width: 100%;
+    max-width: 800px; 
+    padding: 20px;
+    text-align: center;
+}
+
+.random__box{
+    box-sizing: border-box;
+    margin-top: 50px;
+    @include fluid-text(48, 24);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    display: inline-block;
+    padding: 25px 50px;
+}
+
+.random__text{
+    margin-top: 25px;
+}
+
+.random__action{
+    margin-top: 25px;
+
+}
+
+.random__input{
+    border: var(--border);
+    border-radius: var(--border-radius);
+    background: transparent;
+    color: var(--color-accent);
+    padding: 20px;
+    width: 40%;
+    &::placeholder{
+        color: var(--color-light);
+    }
+    margin-bottom: 25px;
+}
+
+.random__btn{
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+}
+
+.random__info{
+    margin-top: 50px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- CSS -->
+    <title></title>
+  </head>
+
+  <body>
+    <!-- START MAIN -->
+    <main class="main">
+      <section class="content content__container">
+        <h1 class="content__title">УГАДАЙ ЧИСЛО</h1>
+
+        <div class="content__random">
+          <div class="random__box">
+            <span class="random__secret"> ? </span>
+          </div>
+
+          <p class="random__text">Начните угадывать</p>
+
+          <div class="random__action">
+            <input
+              type="text"
+              class="random__input"
+              placeholder="Введите число от 0 до 20"
+            />
+            <div class="random__btn">
+              <button class="btn__enter button">Угадать</button>
+              <button class="btn__reset button">Сбросить</button>
+            </div>
+          </div>
+
+          <div class="random__info">
+            <p>Количество попыток: <span class="random__attempt"></span></p>
+            <p>Лучший результат: <span class="random__result"></span></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- END MAIN -->
+
+    <!-- JS -->
+    <script src="./script/main.js"></script>
+    <!-- JS -->
+  </body>
+</html>
