@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- CSS -->
+    <title></title>
+  </head>
+
+  <body>
+    <!-- START MAIN -->
+    <main class="main">
+      <section class="content content__container">
+        <h1 class="content__title">СОБЕРИТЕ АЛФАВИТ</h1>
+
+        <div class="boxes">
+          <div class="boxes__box box__f">Ff</div>
+          <div class="boxes__box box__e">Ee</div>
+          <div class="boxes__box box__d">Dd</div>
+          <div class="boxes__box box__c">Cc</div>
+          <div class="boxes__box box__b">Bb</div>
+          <div class="boxes__box box__a">Aa</div>
+        </div>
+
+        <button class="boxes__btn button hidden" onclick="reloadSite()">Начать заново</button>
+      </section>
+
+      <div class="modal hidden">
+        <button class="button modal__close">X</button>
+        <h2 class="modal__title">Вы собрали алфавит!</h2>
+
+        <button class="modal__btn button" onclick="reloadSite()">Начать заново</button>
+      </div>
+
+      <div class="overlay hidden"></div>
+    </main>
+    <!-- END MAIN -->
+
+    <!-- JS -->
+    <script src="./script/main.js"></script>
+    <!-- JS -->
+  </body>
+</html>
