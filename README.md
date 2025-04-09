@@ -15,6 +15,6 @@
   </li>
   <li>
     <p>Игра "Собери алфавит"</p>
-    <a href="https://sb-baby.github.io/JavaScriptProject/js-05-game-alphabet/">>Ссылка, чтобы посмотреть проект</a>
+    <a href="https://sb-baby.github.io/JavaScriptProject/js-05-game-alphabet/">Ссылка, чтобы посмотреть проект</a>
   </li>
 </ul>
