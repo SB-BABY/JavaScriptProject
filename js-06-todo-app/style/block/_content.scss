@@ -1,0 +1,75 @@
+.main {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    // text-align: center;
+}
+
+.content__title {
+    text-align: center;
+}
+
+.form {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    &__input {
+        height: var(--button-height);
+        border-radius: var(--border-radius);
+        width: 100%;
+        border: var(--border);
+        color: var(--color-accent);
+        padding: 25px;
+        outline: none;
+        background-color: transparent;
+    }
+
+    &__btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+.todo__list {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    
+}
+
+.todo__item {
+    height: var(--button-height);
+    border-radius: var(--border-radius);
+    width: 100%;
+    border: var(--border);
+    color: var(--color-accent);
+    padding: 25px;
+    outline: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.todo__close{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    outline: none;
+    border: none;
+    color: var(--color-accent);
+    background: transparent;
+    cursor: pointer;
+    padding: 25px;
+    &::after{
+        content: 'X';
+    }
+}
+
+.delete{
+    text-decoration-line:line-through;
+}
