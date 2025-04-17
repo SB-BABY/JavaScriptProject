@@ -17,4 +17,8 @@
     <p>Игра "Собери алфавит"</p>
     <a href="https://sb-baby.github.io/JavaScriptProject/js-05-game-alphabet/">Ссылка, чтобы посмотреть проект</a>
   </li>
+  <li>
+    <p>Приложение ToDo App</p>
+    <a href="https://sb-baby.github.io/JavaScriptProject/js-06-todo-app/">Ссылка, чтобы посмотреть проект</a>
+  </li>
 </ul>
