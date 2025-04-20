@@ -22,16 +22,36 @@
         </div>
 
         <ul class="todo__list">
-          <li class="todo__item ">
+          <!-- <li class="todo__item ">
             <span class="todo__text">пример ввода</span>
 
             <button class="todo__close"></button>
-          </li>
+          </li> -->
 
           
         </ul>
+
+        <div class="todo__btns">
+          <button class="button btn__clear hidden">Удалить выбранные</button>
+          <button class="button btn__clear-all hidden">Удалить всё</button>
+        </div>
     </main>
     <!-- END MAIN -->
+
+    <div class="modal hidden">
+      <button class="modal__close"></button>
+
+      <p class="modal__text">
+        Вы действительно хотите удалить: <span class="modal__arr"></span> 
+      </p>
+
+      <div class="modal__btns">
+        <button class="button modal__btn-yes">Да</button>
+        <button class="button modal__btn-no">Нет</button>
+      </div>
+    </div>
+
+    <div class="overlay hidden"></div>
 
     <!-- JS -->
     <script src="./script/main.js"></script>
